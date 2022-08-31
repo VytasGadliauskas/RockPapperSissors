@@ -1,0 +1,47 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    background-color: darkgray;
+    width: 400px;
+    height: 300px;
+    vertical-align: middle;
+    padding: 50px;
+} 
+
+.top {
+    padding: 20px;
+    display: flex;
+    gap: 100px;
+    justify-content:space-between;
+}
+
+.box {
+    border: 2px solid green;
+    border-radius: 5px;
+    width:auto;
+
+}
+
+.box2 {
+    border: 2px solid dimgray;
+    border-radius: 5px;
+
+}
+
+.box2:hover{
+    transform: scale(1.2);
+}
+
+.score{
+    padding: 20px;
+}
+
+.midle {
+    padding-top: 20px;
+    display: flex;
+    gap: 100px;
+    justify-content:space-between;
+}
